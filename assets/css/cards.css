@@ -1,0 +1,61 @@
+/* Card3 */
+.card3-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+.card3-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.card3-item figure .link-preview, .card3-item figure .link-details {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+
+.card3-item figure .link-preview i, .card3-item figure .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #333;
+}
+
+.card3-item figure .link-preview:hover, .card3-item figure .link-details:hover {
+  background: #3843D7;
+}
+
+.card3-item figure .link-preview:hover i, .card3-item figure .link-details:hover i {
+  color: #fff;
+}
+
+.card3-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+.card3-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+.card3-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(50% - 44px);
+}
+
+.card3-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
