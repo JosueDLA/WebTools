@@ -1,0 +1,81 @@
+.button{
+    text-align: center;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Button Outline */
+.btn-outline {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    border-color: #4fbfa8;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.btn-outline:hover, .btn-outline:active, .btn-outline:focus, .btn-outline.active {
+    background: #4fbfa8;
+    color: #ffffff;
+    border-color: #4fbfa8;
+}
+
+/* Button Color */
+.btn-color-1{
+    color: #fff;
+    background-color: #004e64;
+    border-color: #004e64;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.btn-color-1:hover, .btn-color-1:active, .btn-color-1:focus, .btn-color-1.active{
+    background: #07262f;
+    color: #fff;
+    border-color: #07262f;
+}
+
+/* Icon Split Button */
+.btn-icon{
+    border: none;
+    padding: 0;
+    margin: 0.25em;
+    white-space: nowrap;
+    line-height: 100%;
+}
+
+.btn-icon span, .btn-icon i{
+    padding: 0.7rem 1rem;
+    display: inline-block;
+    transition: 0.25 all;
+}
+
+.btn-icon i{
+    border-radius: 0.25rem 0 0 0.25rem;
+    position: relative;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    background: #222;
+}
+
+.btn-icon i:before{
+    line-height: 100%;
+}
+
+.btn-icon i:after{
+    content: "";
+    border: 0.35rem solid;
+    border-color: transparent transparent transparent #222;
+    position: absolute;
+    top: 0.75rem;
+    right: -0.65rem;
+}
+
+.btn-icon span{
+    border-radius: 0 0.25rem 0.25rem 0;
+}
