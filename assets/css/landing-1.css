@@ -2,12 +2,12 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
     box-sizing: border-box;
 }
 
-body{
-    background: #fff;
-    color: #666666;
+html, body{
+    color: #222;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -33,4 +33,38 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px 0;
     padding: 0;
     text-align: center;
+}
+
+/* navbar */
+.navbar{
+    padding: .8rem;
+    max-height: 4.5;
+}
+
+.navbar-nav li{
+    padding-right: 1.3rem;
+}
+
+.nav-link{
+    font-size: 1.1rem !important;
+}
+
+/* Carousel */
+#carousel{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.carousel-inner img{
+    min-width: 100%;
+    max-height: calc(100vh - 4.5rem);
+    mix-blend-mode: multiply;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
