@@ -20,9 +20,9 @@
 <body>
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand reset" href="#">
                 <img src="./assets/images/landing-1/logo.png" alt="Logo" style="width: 3rem; margin: 0;">
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -52,7 +52,7 @@
     <!-- End NavBar -->
 
     <!-- Carousel -->
-    <div class="container-fluid">
+    <div class="container-fluid reset">
         <div id="slides" class="carousel slide" data-ride="carousel">
             <!-- Controls -->
             <a class="carousel-control-prev w-auto" href="#slides" role="button" data-slide="prev">
@@ -128,7 +128,7 @@
 
     <!-- About -->
     <div class="container-fluid padding">
-        <div class="row text-center About">
+        <div class="row text-center about">
             <div class="col-12">
                 <h1 class="display-4">About Us</h1>
                 <hr />
@@ -144,7 +144,7 @@
     <!-- End About -->
 
     <!-- Three Column -->
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row text-center padding">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <i class="fas fa-code"></i>
@@ -168,18 +168,21 @@
 
     <!-- Two Column -->
     <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-lg-6 col-md-12">
-                <h2>New Secction</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo fugiat ratione reprehenderit quod
-                    porro!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tenetur repellat nostrum, fugit
-                    modi voluptas.</p>
-                <button class="btn btn-primary mb-3">New Secction</button>
-            </div>
-            <div class="col-lg-6 col-md-12">
-                <img src="./assets/images/landing-1/work-1.jpg" alt="Work" class="img-fluid">
+        <div class="container">
+            <div class="row padding">
+                <div class="col-lg-6 col-md-12">
+                    <h2>New Secction</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo fugiat ratione reprehenderit
+                        quod
+                        porro!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tenetur repellat nostrum, fugit
+                        modi voluptas.</p>
+                    <button class="btn btn-primary mb-3">New Secction</button>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="./assets/images/landing-1/work-1.jpg" alt="Work" class="img-fluid img-max">
+                </div>
             </div>
         </div>
     </div>
@@ -188,8 +191,8 @@
     <!-- Fixed Background -->
     <hr class="my-4" />
     <figure>
-        <div class="fix-wrap">
-            <div class="fixed">
+        <div class="fixed-wrap">
+            <div id="fixed">
             </div>
         </div>
     </figure>
@@ -207,7 +210,7 @@
     <!-- End Team -->
 
     <!-- Cards -->
-    <div class="container-fluid padding">
+    <div class="container padding">
         <div class="row padding">
             <div class="col-md-4">
                 <div class="card">
@@ -247,6 +250,72 @@
         </div>
     </div>
     <!-- End Cards -->
+
+    <!-- Social -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Social</h2>
+                <div class="col-12 social padding">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Social -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <img src="./assets/images/landing-1/logo.png" alt="Logo" style="width: 4rem;">
+                    <hr class="light" />
+                    <p>+502 5555-5555</p>
+                    <p>email@company.com</p>
+                    <p>Street Name</p>
+                    <p>City Name</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>Schedule</h5>
+                    <hr class="light" />
+                    <p>Monday-Friday: 8am - 4pm</p>
+                    <p>Weekends: Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>Stores</h5>
+                    <hr class="light" />
+                    <p>Street, City</p>
+                    <p>Street, City</p>
+                    <p>Street, City</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100" />
+                    <a href="http://josuedla.github.io/">
+                        <h5>&copy; JosueDLA</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery, Popper, Bootstrap -->
