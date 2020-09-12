@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 /* navbar */
 .navbar{
     padding: .8rem;
-    max-height: 4.5;
+    min-height: 4.6rem;
 }
 
 .navbar-nav li{
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Carousel */
-#carousel{
+.container-fluid, .navbar-brand{
     padding: 0;
     margin: 0;
     border: none;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel-inner img{
     min-width: 100%;
-    max-height: calc(100vh - 4.5rem);
+    max-height: calc(100vh - 4.6rem);
     mix-blend-mode: multiply;
     overflow: hidden;
 }
