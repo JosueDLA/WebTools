@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 4.6rem;
 }
 
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 .navbar-nav li{
     padding-right: 1.3rem;
 }
@@ -50,13 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Carousel */
-.container-fluid, .navbar-brand{
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
 .carousel-inner img{
+    object-fit: cover;
     min-width: 100%;
     max-height: calc(100vh - 4.6rem);
     mix-blend-mode: multiply;
