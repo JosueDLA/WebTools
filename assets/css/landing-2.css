@@ -41,6 +41,7 @@ ul{
     width: 4rem;
     padding: .8rem;
 }
+
 .nav-main ul{
     display: flex;
 }
@@ -61,6 +62,16 @@ ul{
 .nav-main ul.nav-menu{
     flex: 1;
     margin-left: 1.2rem;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 1rem;
+    right: 2rem;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: none;
 }
 
 /* Jumbotron */
@@ -227,4 +238,69 @@ ul{
     padding-top: 1rem 0;
     padding-bottom: 2rem;
     text-align: center;
+}
+
+/* Large */
+@media (max-width: 960px){
+    .menu-btn{
+        display: block;
+    }
+    
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 2rem;
+        opacity: .9; 
+        background-color: #2b2b2b;
+        transform: translateX(-30rem); 
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-1.5rem);
+    }
+
+    .nav-main ul.nav-menu li{
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 3.5rem;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+/* Medium */
+@media (max-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-main ul.nav-menu-right{
+        margin-right: 3.5rem;
+    }
+}
+
+/* Small */
+@media (max-width: 576px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links .footer-container{
+        grid-template-columns: 1fr;
+    }
 }
