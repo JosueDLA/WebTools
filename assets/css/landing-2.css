@@ -195,3 +195,36 @@ ul{
 .fa-linkedin-in:hover{
     color: #fff;
 }
+
+/* Footer Links */
+.footer-links{
+    background-color: #000;
+    color: #fff;
+    font-size: .8rem;
+    padding: 2rem 0;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .8rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-container ul{
+    margin: 0 auto;
+}
+
+.footer-container ul li{
+    line-height: 2.8;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 1rem 0;
+    padding-bottom: 2rem;
+    text-align: center;
+}
