@@ -245,7 +245,7 @@ ul{
     .menu-btn{
         display: block;
     }
-    
+
     .nav-main ul.nav-menu{
         display: block;
         position: absolute;
@@ -279,8 +279,6 @@ ul{
     .footer-links .footer-container{
         grid-template-columns: repeat(2, 1fr);
     }
-
-
 }
 
 /* Medium */
